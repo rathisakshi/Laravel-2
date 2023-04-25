@@ -44,6 +44,7 @@
                 @endif
             </div>
             <button type="submit" class="btn btn-dark">Update</button>
+            <button class="btn btn-dark" onclick="location.href='{{ route('books.index') }}'">Cancel</button>
         </form>
     </main>
 </div>

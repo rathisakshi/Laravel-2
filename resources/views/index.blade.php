@@ -37,8 +37,8 @@
                         </a>
                     </div>
                     <div class="col-6 text-end ml-10 pull-right logout">
-                        <button class="btn btn-dark mb-2"
-                                onclick="window.location.href='{{ route('logout', $books) }}'">
+                        <button type="button" class="btn btn-dark mb-2"
+                                onclick="window.location.href='{{ route('logout') }}'">
                             Logout
                         </button>
                     </div>
